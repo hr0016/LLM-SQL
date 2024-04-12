@@ -1,0 +1,7 @@
+- generate SQL from natural languages
+- due to resources and computing cost reasons, the llm is based on the pretrained sql-expert model "defog-sqlcoder2" (for further reference, please check out defog.ai huggingface page https://huggingface.co/defog/sqlcoder2; or the newer smaller models https://huggingface.co/defog/sqlcoder-7b-2)
+- no retraining or fine-tuning required, just prompt engineering 
+- regardless of the schema of databases, so long as schema is provided to the LLM
+- regardless of SQL engine, so long as you point out in the "notes" parameter what engine(s) are expected to be used
+- added an interactive feature that enables the engine to generate improved output queries based on user feedback
+- prototype provided; integratable into use cases associated to databses with APIs 
