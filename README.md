@@ -6,3 +6,5 @@
 - regardless of SQL engine, so long as you point out in the "notes" parameter what engine(s) are expected to be used
 - added an interactive feature that enables the engine to generate improved output queries based on user feedback
 - prototype provided; integratable into use cases associated to databses with CLIs and APIs 
+- as per defog.ai: model is intended to be used by non-technical users to understand data inside their SQL databases. It is meant as an analytics tool, and not as a database admin tool.
+- also as per defog.ai: this model has not been trained to reject malicious requests from users with write access to databases, and should only be used by users with read-only access.
